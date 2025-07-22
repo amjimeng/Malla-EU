@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
   padding: 20px;
-  background-color: #f9f9f9;
 }
 
 h1 {
@@ -9,39 +9,59 @@ h1 {
   margin-bottom: 40px;
 }
 
-.año {
-  margin-bottom: 40px;
-  border: 2px solid #ccc;
-  padding: 20px;
+.malla {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.fila-año {
   background-color: #fff;
   border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fila-año h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.semestres {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
 }
 
 .semestre {
-  display: inline-block;
-  width: 48%;
-  vertical-align: top;
-  margin: 1%;
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 250px;
+  flex-shrink: 0;
 }
 
 .semestre h3 {
-  background-color: #e0e0e0;
-  padding: 10px;
   margin-top: 0;
+  font-size: 16px;
+  background-color: #ccc;
+  padding: 5px;
   border-radius: 5px;
+  text-align: center;
 }
 
 ul {
-  list-style-type: none;
   padding: 0;
+  list-style: none;
 }
 
 .ramo {
   background-color: pink;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 4px;
   cursor: pointer;
+  font-size: 13px;
   transition: all 0.3s ease;
 }
 
