@@ -37,10 +37,11 @@ h1 {
 }
 
 .semestre {
-  background-color: #ececec;
+  border: 1px solid #bbb;
   margin-bottom: 10px;
   border-radius: 6px;
   padding: 5px;
+  background-color: transparent;
 }
 
 .semestre h3 {
