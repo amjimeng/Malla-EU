@@ -9,11 +9,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-.anio {
-  margin-top: 40px;
-  color: #2c3e50;
-}
-
 .malla {
   display: flex;
   overflow-x: auto;
@@ -44,7 +39,7 @@ ul {
 }
 
 .ramo {
-  background-color: #ffc0cb;
+  background-color: #ffc0cb; /* rosado */
   margin: 6px 0;
   padding: 6px;
   border-radius: 4px;
@@ -54,7 +49,20 @@ ul {
 }
 
 .ramo.aprobado {
-  background-color: #9370DB;
+  background-color: #9370DB; /* morado */
   text-decoration: line-through;
   color: #fff;
+}
+
+/* 🎓 Agrupación por año académico */
+.anio-container {
+  margin-bottom: 40px;
+  border-top: 3px solid #ccc;
+  padding-top: 20px;
+}
+
+.anio {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-left: 10px;
 }
