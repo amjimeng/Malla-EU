@@ -1,14 +1,37 @@
+/* Estilos generales */
 body {
   font-family: sans-serif;
   background: #f0f0f0;
   padding: 20px;
+  margin: 0;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 26px;
+  color: #2c3e50;
 }
 
+/* Contenedor de cada año académico */
+.anio-container {
+  margin-bottom: 60px;
+  padding: 10px 15px;
+  background-color: #eaeaea;
+  border-left: 6px solid #999;
+  border-radius: 6px;
+}
+
+/* Título de cada año */
+.anio {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  padding-left: 5px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Contenedor horizontal de los semestres */
 .malla {
   display: flex;
   overflow-x: auto;
@@ -16,6 +39,7 @@ h1 {
   padding: 10px 0;
 }
 
+/* Estilo de cada semestre */
 .semestre {
   background: #fff;
   padding: 10px;
@@ -32,12 +56,14 @@ h1 {
   margin-bottom: 10px;
 }
 
+/* Lista de ramos */
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+/* Estilo de cada ramo */
 .ramo {
   background-color: #ffc0cb; /* rosado */
   margin: 6px 0;
@@ -48,21 +74,9 @@ ul {
   text-align: center;
 }
 
+/* Ramo aprobado */
 .ramo.aprobado {
   background-color: #9370DB; /* morado */
   text-decoration: line-through;
   color: #fff;
-}
-
-/* 🎓 Agrupación por año académico */
-.anio-container {
-  margin-bottom: 40px;
-  border-top: 3px solid #ccc;
-  padding-top: 20px;
-}
-
-.anio {
-  font-size: 20px;
-  color: #2c3e50;
-  margin-left: 10px;
 }
